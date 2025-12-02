@@ -19,7 +19,7 @@ public class TC_RF_001  {
        // WebDriver driver = new EdgeDriver();
         // WebDriver driver = new FirefoxDriver();
 		
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10)); //implicit wait
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(12)); //implicit wait
 		
 		driver.get("http://tutorialsninja.com/demo/"); //Open the application
 		
